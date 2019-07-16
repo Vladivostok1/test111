@@ -1,0 +1,44 @@
+#header{
+    height: 32px;
+    line-height: 32px;
+    background: #a9180a;
+    border-bottom:1px solid #a9180a;    
+}
+.header-left{
+    height: 32px;
+    background: #0000ff;
+    float: left;
+}
+.header-left span,.header-left > a{
+    color:#fff;
+    font-size: 12px;
+}
+.header-left > a{
+    text-decoration: none;
+    padding:0 10px 0 20px;
+}
+.header-right{
+    float: right;
+}
+.header-right > li{
+    float: left;
+    padding:0 14px 0 10px;
+}
+.header-right > li > a{
+    color: #fff;
+}
+.list-arrow{
+    position: relative;
+}
+.list-arrow::after{
+    content: "";
+    width: 0;
+    height: 0;
+    font-size: 0;/*兼容性*/
+    line-height: 0;/*兼容性*/
+    border:3px solid transparent;
+    border-top:3px solid #bbb;
+    position: absolute;
+    right:8px;
+    top:15px;
+}
