@@ -125,4 +125,79 @@ li{
 .tutu{
     width: 2.3rem;
     height: 2.3rem;
+    display: block;
+}
+.a111{
+    color: #f00;
+    height: 0.1rem;
+}
+.like{
+    margin-top:0.1rem;
+    padding:0.2rem;
+    height: 9.52rem;
+}
+.liketop{
+    /*background: #00ff00;*/
+    display: flex;
+
+}
+.like-tu img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+.like-txt{
+    flex:1;
+}
+.like-txt >h3{
+    font-size: 0.28rem;
+    color:#333;
+    margin-top:0.19rem;
+    margin-left:0.18rem;
+}
+.like-txt > p{
+    font-size: 0.18rem;
+    color:#999;
+    margin-top:0.15rem;
+    margin-left:0.18rem;
+}
+.like-you img{
+    width: 0.14rem;
+    height: 0.24rem;
+    margin-bottom:0.38rem;
+}
+.likebottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.likebottom img{
+    width: 3.5rem;
+    height: 3.5rem;
+    display: block;
+}
+.likebottom li{
+    width: 3.5rem;
+    /*background: #00ff00;*/
+}
+.likebottom  p{
+    font-size: 0.24rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+     /* 单行文本溢出... */
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     color:#333;
+}
+.like-price{
+    display: flex;
+    justify-content: space-between;
+    margin-top:0.19rem;
+    color:#EF1C00;
+}
+.sale{
+    font-size: 0.2rem;
+    color:#999;
 }
