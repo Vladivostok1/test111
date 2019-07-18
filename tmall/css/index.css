@@ -563,11 +563,35 @@ body{
     opacity: 0.7;
 }
 .market-bottom-right{
-    width: 982px;
+    width: 995px;
     height: 618px;
     background: #0000ff;
     float: right;
 }
 
+.market-bottom-list-li{
+    width: 236px;
+    height: 302px;
+    background: #ff0000;
+    float: left;
+    margin-left:12.5px;
+    margin-bottom:15px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.market-bottom-list-img{
+    width: 185px;
+    height: 185px;
+}
+.market-bottom-list-text{
+    width: 135px;
+    height: 40px;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    margin: 8px 25px;
+}
 
-
+.banner-list-1{
+    width: 484px;
+}
